@@ -5,67 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin-Recipes</title>
-    <link rel="stylesheet" src="css/style.css">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/styles.css">s
 </head>
 <body>
-    <h1>Slow Cooker Turkey Meatballs in Tomato Sauce</h1>
-    <img src="images/meatballs.webp">
-    <div>
-        <h2>Description</h2>
-        These slow cooker turkey meatballs in tomato sauce are a great alternative to traditional 
-        <p>beef meatballs. Can be served over pasta or make meatball sandwiches with sauteed</p> 
-        <p>onions and peppers with melted Italian cheese over the top. Fantastic!</p>
-    </div>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <h1 class="home__data-subtitle">Slow Cooker Turkey Meatballs in Tomato Sauce</h1>
 
-    <div>
-        <h3>Ingredients</h3>
-        <ul>
-            <li> ¼ cup minced onion </li>
-            <li> 1 tablespoon Italian-style salad dressing </li>
-            <li> 1½ pounds ground turkey </li>
-            <li> 1¼ cups Italian-seasoned bread crumbs </li>
-            <li> 5 cloves garlic, crushed </li>
-            <li> 2 tablespoons Italian seasoning </li>
-            <li> salt and ground black pepper to taste </li>
-            <li> 2 (14.5 ounce) cans Italian-style diced tomatoes </li>
-            <li> 1 (26 ounce) jar marinara sauce </li>
-            <li> 2 teaspoons dried basil </li>
-        </ul>
-    </div>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
 
-    <div class="">
-        <h3>Steps</h3>
-        <ul>
-            <li>
-                <strong>Step 1</strong>
-                <p>Saute onion and Italian dressing in a small saute pan over medium heat for 5 minutes.</p>
-                <p>Remove from heat and let cool slightly, about 5 minutes.</p>
-            </li>
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
 
-            <li>
-                <strong>Step 2</strong>
-                <p>Combine turkey, bread crumbs, garlic, sauteed onions, Italian seasoning, salt, and</p>
-                <p>pepper in a bowl; mix well.</p>
-            </li>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
 
-            <li>
-                <strong>Step 3</strong>
-                <p>Combine diced tomatoes and marinara in a second bowl; set aside.</p>
-            </li>
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="images/meatballs.jpeg" alt="" class="home__img">
+        </section>
 
-            <li>
-                <strong>Step 4</strong>
-                <p>Form 1/2 of the turkey mixture into 1 1/2-inch meatballs and layer them in the bottom</p>
-                <p>of a slow cooker. Pour 1/2 of the tomato mixture over the meatballs. Form the</p>
-                <p>remaining turkey mixture into meatballs and layer with remaining tomato mixture.</p>
-            </li>
+        <div class="home__container container grid">
+            <div class="home__data">
+                <span class="home__data-subtitle">Description</span>
+                <h1 class="home__data-title">These slow cooker turkey meatballs <br> are a great alternative to <br>traditional beef meatballs</b></h1>
+            </div>
+        </div>
+    </main> 
 
-            <li>
-                <strong>Step 5</strong>
-                <p>Cover and cook until no longer pink in the centers, about 4 hours on High, or 8 hours on Low..</p>
-            </li>
-        </ul>
-    </div>
-    <a href="index.html">Back</a>
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">Ingredients</h2>
+                <ul class="about__description">
+                    <li> ¼ cup minced onion </li>
+                    <li> 1 tablespoon Italian-style salad dressing </li>
+                    <li> 1½ pounds ground turkey </li>
+                    <li> 1¼ cups Italian-seasoned bread crumbs </li>
+                    <li> 5 cloves garlic, crushed </li>
+                    <li> 2 tablespoons Italian seasoning </li>
+                    <li> salt and ground black pepper to taste </li>
+                    <li> 2 (14.5 ounce) cans Italian-style diced tomatoes </li>
+                    <li> 1 (26 ounce) jar marinara sauce </li>
+                    <li> 2 teaspoons dried basil </li>
+                </ul>
+            </div>           
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">Steps</h2>
+                <ul class="about__description">
+                    <li>
+                        <h3>Step 1</h3>
+                            <p>Saute onion and Italian dressing in a small saute pan over medium heat for 5 minutes.</p>
+                            <p>Remove from heat and let cool slightly, about 5 minutes.</p>
+                    </li>
+                    <br>
+
+                    <li>
+                        <h3>Step 2</h3>
+                            <p>Combine turkey, bread crumbs, garlic, sauteed onions, Italian seasoning, salt, and</p>
+                            <p>pepper in a bowl; mix well.</p>
+                    </li>
+                    <br>
+
+                    <li>
+                        <h3>Step 3</h3>
+                            <p>Combine diced tomatoes and marinara in a second bowl; set aside.</p>
+                    </li>
+                    </li>
+                    <br>
+
+                    <li>
+                        <h3>Step 4</h3>
+                            <p>Form 1/2 of the turkey mixture into 1 1/2-inch meatballs and layer them in the bottom</p>
+                            <p>of a slow cooker. Pour 1/2 of the tomato mixture over the meatballs. Form the</p>
+                            <p>remaining turkey mixture into meatballs and layer with remaining tomato mixture.</p>
+                    </li>
+
+                    <li>
+                        <h3>Step 5</h3>
+                            <p>Cover and cook until no longer pink in the centers, about 4 hours on High, or 8 hours on Low..</p>
+                    </li>
+                </ul>
+            </div>           
+        </div>
+        <div class="about__data">
+            <a class="button" href="index.html">Back</a>
+        </div>
+    </section>
 </body>
 </html>
