@@ -1,0 +1,447 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    
+
+    
+
+    <title>Find a Vaccine</title>
+  </head>
+  <body>
+  <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Find a Vaccine</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Vaccination Appointment</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Vaccination Spot</a>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.svg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Discover a spot</span>
+                        <h1 class="home__data-title">Find The <br> Most <b>Convenient <br> Vaccination Spot</b></h1>
+                        <a href="#" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/minofhealthUG" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ministryofhealth_uganda/?hl=en" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/MinofHealthUG" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Reasons to Get Vaccinated</span>
+                            <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-benefits.html" target="_blank" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.svg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">COVID-19 vaccines<br>  are effective </h2>
+                        <p class="about__description">COVID 19-vaccines are effective and can lower your risk of getting and spreading the virus that causes COVID-19.
+                        COVID-19 vaccines also help prevent serious illness and death in children and adults even if they do get COVID-19.
+                        </p>
+                        <a href="#discover" class="button">Reserve a spot</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.svg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.svg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">With One Simple Step <br> You Can Reserve Your Vaccination Spot</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">5</h2>
+                            <span class="experience__description">Vaccine <br> Types</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">Get</h2>
+                            <span class="experience__description">A Vaccine <br> Card</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">6</h2>
+                            <span class="experience__description">Vaccination <br> Spots</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience1.svg" alt="" class="experience__img-one">
+                        </div>
+
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience2.svg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== Appointment ==================== -->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Make a vaccine <br> Appointment</h2>
+
+
+                <p class="subscribe__description">Fill in the Information Below to Make a Vaccination Appointment
+                </p>
+
+            <form action="reservation.php" method="POST" class="subscribe__container container">
+                <input type="text"  name="firstName" placeholder="Enter First Name" class="subscribe__form" pattern=[A-Z\sa-z]{3,20} required>
+                <input type="text"  name="lastName" placeholder="Enter Last Name" class="subscribe__form" pattern=[A-Z\sa-z]{3,20} required>
+                <input type="email"  name="email" placeholder="Enter email e.g john.doe@email.com" class="subscribe__form" required>
+                <input type="tel"  name="phone" placeholder="Enter Phone Number e.g 078 348 3872" class="subscribe__form" required>
+                <input type="tel"  name="national" placeholder="Enter National ID Number e.g CM00000000AA0A" class="subscribe__form" required>
+
+                <select  name="vaccine" class="subscribe__form" >
+                  <option value="">Choose a Vaccine from the List</option>
+                  <option value="Any">Any</option>
+                  <option value="Moderna">Moderna</option>
+                  <option value="Pfizer">Pfizer-BioNTech</option>
+                  <option value="AstraZeneca">AstraZeneca</option>
+                  <option value="Johnson">Johnson & Johnson</option>
+                  <option value="Sinovac">Sinovac</option>
+                </select>
+
+                <select  name="age" class="subscribe__form" >
+                  <option value="">Choose an Age group from the List</option>
+                  <option value="15-18">15 to 18 year olds</option>
+                  <option value="18-45">18 to 45 year olds</option>
+                  <option value="45+">45+ year olds</option>
+                </select>
+
+                <select  name="dose" class="subscribe__form" required>
+                  <option value="dose">Choose the dose</option>
+                  <option value="1st">1st dose</option>
+                  <option value="2nd">2nd dose</option>
+                  <option value="any">Precautionary Dose</option>
+                </select>
+
+                <select id="center" name="center" class="subscribe__form" required>
+                  <option value="Mbarara">Choose the vaccination center</option>
+                  <option value="Mbarara">Mbarara Regional Referral Hospital</option>
+                  <option value="Ruharo">Ruharo Mission</option>
+                  <option value="Holy">Holy Innocents Children's Hospital</option>
+                  <option value="Divine">Divine Mercy Hospital</option>
+                  <option value="Mayanja">Mayanja Memorial Hospital</option>
+                </select>
+
+            <label for="vaccine_date" class="subscribe__form">Appointment Date</label>
+                <input type="date" id="date" name="vaccine_date" placeholder="Vaccine Appointment Date"class="subscribe__form" required>
+
+            <label for="message" class="subscribe__form">Anything Else</label>
+                <textarea id="message" name="message" placeholder="Tell us anything else that might be important." class="subscribe__form"></textarea>
+            <div class="subscribe__form">
+                <button type="submit" class="button" name="Book">Book</button>
+            </div>
+            </form>
+        </section>
+            
+
+    <!--==================== VIDEO ====================-->
+    <section class="video section">
+                <h2 class="section__title">Explainer Video</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Find out more about how vaccines build immunity against COVID-19.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--====================VACCINATION SPOT ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Explore the different Vaccination Centers</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== VACCINATION SPOT CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place1.svg" alt="" class="place__img">
+
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Mbarara Regional Referral Hospital</h3>
+                                <span class="place__subtitle">Mbarara Town</span>
+
+                            </div>
+                        </div>
+
+                        <button  onclick=" window.open('https://mbararahospital.go.ug','_blank')" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== VACCINATION APPOINTMENT CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place2.svg" alt="" class="place__img">
+
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Ruharo Mission</h3>
+                                <span class="place__subtitle">Ruharo</span>
+
+                            </div>
+                        </div>
+
+                        <button onclick=" window.open('https://ruharomissionhospital.org','_blank')" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== VACCINATION APPOINTMENT CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place3.svg" alt="" class="place__img">
+
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Holy Innocents Children's Hospital</h3>
+                                <span class="place__subtitle">Isingiro Road</span>
+
+                            </div>
+                        </div>
+
+                        <button onclick=" window.open('http://www.holyinnocentsuganda.com/','_blank')" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== VACCINATION APPOINTMENT CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place4.svg" alt="" class="place__img">
+
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Divine Mercy Hospital</h3>
+                                <span class="place__subtitle">Rwebikona</span>
+
+                            </div>
+                        </div>
+
+                        <button onclick=" window.open('https://frbashfoundation.org','_blank')" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== VACCINATION APPOINTMENT CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place5.svg" alt="" class="place__img">
+
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Mayanja Memorial Hospita;</h3>
+                                <span class="place__subtitle">Kampala Road</span>
+
+                            </div>
+                        </div>
+
+                        <button onclick=" window.open('https://mayanjamhf.org','_blank')" class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+
+
+                    <!--==================== FOOTER ====================-->
+                    <footer class="footer section">
+                        <div class="footer__container container grid">
+                            <div class="footer__content grid">
+                                <div class="footer__data">
+                                    <div class="footer__data">
+                                        <h3 class="footer__subtitle">CONTACT US</h3>
+                                        <ul>
+                                            <li class="footer__item">
+                                                <a href="https://www.health.go.ug/" class="footer__link">Visit the Ministry of Health</a>
+                                            </li>
+                                            <li class="footer__item">
+                                                <a href="" class="footer__link">Call</a>
+                                            </li>
+                                            <li class="footer__item">
+                                                <a href="mailto:info@health.go.ug" target="_blank" class="footer__link">Email the Ministry of Health</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.facebook.com/minofhealthUG" target="_blank" class="footer__social">
+                                            <i class="ri-facebook-box-fill"></i>
+                                        </a>
+                                        <a href="https://twitter.com/MinofHealthUG" target="_blank" class="footer__social">
+                                            <i class="ri-twitter-fill"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/ministryofhealth_uganda/?hl=en" target="_blank" class="footer__social">
+                                            <i class="ri-instagram-fill"></i>
+                                        </a>
+                                        <a href="https://www.youtube.com/channel/UCZN12cbRTfB1uxm5qF9wdCg" target="_blank" class="footer__social">
+                                            <i class="ri-youtube-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="footer__data">
+                                    <h3 class="footer__subtitle">ABOUT</h3>
+                                    <ul>
+                                        <li class="footer__item">
+                                            <a href="https://covid19.trackvaccines.org/country/uganda/" target="_blank" class="footer__link">Vaccine Tracker</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="https://hsc.go.ug/adverts/MoH%20COVID-19%20Response%20advert2(Critical%20Care%20Nursing).pdf" target="_blank" class="footer__link">Jobs</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="footer__data">
+                                    <h3 class="footer__subtitle">Sponsors</h3>
+                                    <ul>
+                                        <li class="footer__item">
+                                            <a href="https://www.who.int" target="_blank" class="footer__link">World Health Organization</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="https://www.unicef.org" target="_blank" class="footer__link">Unicef</a>
+                                        </li>
+                                        <li class="footer__item">
+                                            <a href="https://www.gatesfoundation.org" target="_blank" class="footer__link">Bill & Melinda Gates Foundation</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="footer__rights">
+                                <p class="footer__copy">&#169; 2021 Wesonga Bob. All rights reserved.</p>
+                                <div class="footer__terms">
+                                    <p class="footer__terms-link">Terms & Agreements</p>
+                                    <p class="footer__terms-link">Privacy Policy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+                     <!--========== SCROLL UP ==========-->
+                    <a href="#" class="scrollup" id="scroll-up">
+                        <i class="ri-arrow-up-line scrollup__icon"></i>
+                    </a>
+
+                    <!--=============== SCROLL REVEAL===============-->
+                    <script src="assets/js/scrollreveal.min.js"></script>
+
+                    <!--=============== SWIPER JS ===============-->
+                    <script src="assets/js/swiper-bundle.min.js"></script>
+
+                    <!--=============== MAIN JS ===============-->
+                    <script src="assets/js/main.js"></script>
+    </main>
+    <!-- script / js -->
+    <script src="./src/js/registration-form-validation.js"></script>
+  </body>
+</html>
+

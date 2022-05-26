@@ -5,34 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin-Recipes</title>
-    <link rel="stylesheet" src="css/style.css">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Bob's Slow Cooker Braciole</h1>
-    <img src="images/bracoile.webp">
-    <div>
-        <h2>Description</h2>
-        <p>This is a cheap and easy way to make this Italian classic.</p>
-    </div>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <h1 class="home__data-subtitle">Bob's Slow Cooker Braciole</h1>
 
-    <div>
-        <h3>Ingredients</h3>
-        <ul>
-            <li> 2 (26 ounce) jars marinara sauce </li>
-            <li> 2 eggs, beaten </li>
-            <li> ½ cup dry bread crumbs </li>
-            <li> 1¼ cups Italian-seasoned bread crumbs </li>
-            <li> 1 (1 1/2-pound) flank steak, pounded to 1/4 inch </li>
-            <li> 1 teaspoon kosher salt </li>
-            <li> ground black pepper </li>
-            <li> 5 slices bacon </li>
-            <li> 1 cup shredded Italian cheese blend </li>
-            <li> 2 tablespoons vegetable oil </li>
-        </ul>
-    </div>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
 
-    <div class="">
-        <h3>Steps</h3>
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="images/bracoile.jpeg" alt="" class="home__img">
+        </section>
+
+        <div class="home__container container grid">
+            <div class="home__data">
+                <span class="home__data-subtitle">Description</span>
+                <h1 class="home__data-title">This is a <br> cheap and easy way <b> <br> to make this Italian classic.</b></h1>
+            </div>
+        </div>
+    </main> 
+
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">Ingredients</h2>
+                <ul class="about__description">
+                    <li> 2 (26 ounce) jars marinara sauce </li>
+                    <li> 2 eggs, beaten </li>
+                    <li> ½ cup dry bread crumbs </li>
+                    <li> 1¼ cups Italian-seasoned bread crumbs </li>
+                    <li> 1 (1 1/2-pound) flank steak, pounded to 1/4 inch </li>
+                    <li> 1 teaspoon kosher salt </li>
+                    <li> ground black pepper </li>
+                    <li> 5 slices bacon </li>
+                    <li> 1 cup shredded Italian cheese blend </li>
+                    <li> 2 tablespoons vegetable oil </li>
+                </ul>
+            </div>           
+        </div>
+    </section>
+
+
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">Steps</h2>
+                <ul class="about__description">
+                    <li>
+                        <strong >Step 1</strong>
+                        <p>Pour the marinara sauce into the slow cooker and set on High to warm.</p>
+                    </li>
+                </ul>
+            </div>           
+        </div>
+    </section>
+    
         <ul>
             <li>
                 <strong>Step 1</strong>
@@ -62,6 +110,10 @@
             </li>
         </ul>
     </div>
-    <a href="index.html">Back</a>
+    </section>
+
+    <div class="">
+        <a class="button" href="index.html">Back</a>
+    </div>
 </body>
 </html>
